@@ -1,0 +1,32 @@
+ /*  RESET DAS CONFIGURAÇÕES NAVEGADOR */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ } 
+
+ body {
+    background-color:red;
+    background-image: url("fundo.avif");
+
+ background-repeat: no-repeat;
+ background-position:  center;
+ background-size: cover ;
+ background-attachment: fixed;
+
+ }
+
+ h2 {
+    text-align: center;
+    font-size: : 60px;
+     font-family: "Gigi" ;
+
+
+ }
+
+ p{text-align: justify;
+    font-size: 23px
+    ;
+
+ } b
