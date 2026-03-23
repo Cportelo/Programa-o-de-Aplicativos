@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alistamento Militar - Base Aérea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="painel-comando">
+        <img src="assets/fundo.jpg2..png" alt="Logo Militar" class="Logo">
+        
+        <h1>CENTRAL DE COMANDO</h1>
+        <p>VERIFICAÇÃO DE ALISTAMENTO</p>
+        
+        <input type="number" id="idadeRecruta" placeholder="DIGITE SUA IDADE" min="1">
+        
+        <button onclick="verificarAlistamento()">INICIAR PROTOCOLO</button>
+        
+        <div id="resultado-missao">Aguardando dados do recruta...</div>
+        
+        <div class="campo-batalha">
+            <div id="mecanico">👨‍🔧</div>
+            <div id="jato">✈️</div>
+            <div id="fumaca">💨</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
